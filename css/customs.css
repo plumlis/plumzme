@@ -22,7 +22,7 @@ ul{
 body {
 	font-size: 14px;
 	background-color:rgb(222, 231, 240);
-		background-image: url('https://img2.plumz.me/flake.png');
+		background-image: url('https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/flake.png');
 }
 
 body>.container{
@@ -52,7 +52,7 @@ footer{
         }
 
 .billboard{
-        background:#b8d9fa url(https://img2.plumz.me/billboard.jpg) center center repeat-x;
+        background:#b8d9fa url(https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/billboard.jpg) center center repeat-x;
         background-size:cover;
         padding:170px 0 0px;
         box-shadow:0 2px 8px rgba(0,0,0,.25),0 2px 8px rgba(0,0,0,.12)
