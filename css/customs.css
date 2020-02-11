@@ -22,7 +22,9 @@ ul{
 body {
 	font-size: 14px;
 	background-color:rgb(222, 231, 240);
+	/*
 		background-image: url('https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/flake.png');
+	*/
 }
 
 body>.container{
