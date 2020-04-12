@@ -3,11 +3,6 @@
         font-weight:400
         }
         
-/*字体颜色*/
-a, a:hover, a:focus{
-	color:#ac203a 
-}
-
 p{
         line-height: 27px;
         font-size:15px
@@ -45,12 +40,17 @@ footer{
 #main{
         padding-top:80px
         }
+        
+/*字体颜色*/
+a, a:hover, a:focus{
+	color:#399fa1 
+}
 
 /*标题栏颜色*/
 .navbar.navbar-inverse{
         border:0;
         box-shadow:0 0 10px #000;
-        background-color:rgba(172,32,58,.92)
+        background-color:rgba(43,142,145,0.92)
         }
 
 .billboard{
@@ -119,20 +119,23 @@ footer{
         border-top-left-radius:4px
         }
         
+/*页码按钮颜色*/
+     
 .page-navigator>.current>a,.page-navigator>.current>a:focus,.page-navigator>.current>a:hover,.page-navigator>.current>span,.page-navigator>.current>span:focus,.page-navigator>.current>span:hover{
         z-index:2;
         color:#fff;
         cursor:default;
-        background-color:#2b94ff;
-        border-color:#2b94ff
+        background-color:#399fa1;
+        border-color:#399fa1
         }
+        
         
 .page-navigator>.active>a,.page-navigator>.active>a:focus,.page-navigator>.active>a:hover,.page-navigator>.active>span,.page-navigator>.active>span:focus,.page-navigator>.active>span:hover{
         z-index:2;
         color:#fff;
         cursor:default;
-        background-color:#2b94ff;
-        border-color:#2b94ff
+        background-color:#399fa1;
+        border-color:#399fa1
         }
         
 .page-navigator>li>a,.page-navigator>li>span{
@@ -170,7 +173,7 @@ footer{
 .col-md-3 .panel a.panel-heading{
         display:block;
         text-decoration:none;
-        background-color:#ac203a
+        background-color:#399fa1
         }
         
 a:hover.item{
@@ -509,7 +512,7 @@ cite.fn{
         
 .badge{
         color:#FFF;
-        background-color:#2b94ff;
+        background-color:8e8990;
         }
 
 .col-md-9 .badge{
@@ -523,7 +526,7 @@ cite.fn{
 /*tag云标签颜色*/
 .badge>a{
         color:#FFF;
-        background-color:#2b94ff
+        background-color:#8e8990
         }
         
 /*底部颜色*/
@@ -531,7 +534,7 @@ cite.fn{
         border-radius: 2px;
         border: 0;
         box-shadow: 0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
-        background-color:#ac203a
+        background-color:#508ed2
         }
         
 /*space*/
@@ -577,7 +580,7 @@ cite.fn{
 }
 /*标签*/
 .label{
-	background-color:#2b94ff;
+	background-color:#8e8990;
 	white-space:nowrap;
 	margin:1px;
 	font-weight:100
@@ -585,7 +588,7 @@ cite.fn{
 
 /*标签*/
 .label-tag{
-	background-color:#2b94ff;
+	background-color:#8e8990;
 	white-space:nowrap;
 	margin:1px;
 	font-weight:300;
@@ -623,7 +626,7 @@ cite.fn{
 
 /*下面上一篇下一篇的颜色*/
 .btn-default:not(.btn-link):not(.btn-flat){
-	background-color:#2b94ff;
+	background-color:#508ed2;
 	color:rgba(255, 255, 255);
 	border-radius:25px;
 	margin:2px 2px 2px 2px;
@@ -640,17 +643,17 @@ cite.fn{
 /*几个按钮颜色*/
 
 .btn-info:not(.btn-link):not(.btn-flat){
-background-color:#2b94ff
+background-color:#508ed2
 }
 
 /*回复按钮颜色*/
 .btn-danger:not(.btn-link):not(.btn-flat){
-	background-color:#2b94ff;
+	background-color:#508ed2;
 	color:rgb(255, 255, 255)
 }
 /*确认按钮颜色*/
 .btn-success:not(.btn-link):not(.btn-flat){
-background-color:#ac203a
+background-color:#508ed2
 }
 
 btn-success:hover:not(.btn-link):not(.btn-flat){
@@ -668,5 +671,3 @@ background-color:#2b94ff
 .label-success{
 	background-color:#4caf50
 }
-
-
