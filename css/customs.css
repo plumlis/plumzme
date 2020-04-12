@@ -54,7 +54,7 @@ a, a:hover, a:focus{
         }
 
 .billboard{
-        background:#b8d9fa url(https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/billboard.jpg) center center repeat-x;
+        background:#b8d9fa url(https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/billboard_tukuyomi.jpg) center center repeat-x;
         background-size:cover;
         padding:170px 0 0px;
         box-shadow:0 2px 8px rgba(0,0,0,.25),0 2px 8px rgba(0,0,0,.12)
