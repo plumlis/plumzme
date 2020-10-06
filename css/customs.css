@@ -1,8 +1,13 @@
 .h1,.h2,.h3,.h4,.lead,body,h1,h2,h3,h4{
-        font-family:'Helvetica Neue',Helvetica,'Lucida Grande','Lucida Sans','Ubuntu',Arial,'Microsoft YaHei','文泉驿微米黑','微软雅黑','Segoe UI',sans-serif;
+        font-family:tahoma, arial, "Microsoft YaHei" ,"Hiragino Sans GB", "\5b8b\4f53",'Ubuntu','文泉驿微米黑','微软雅黑','Segoe UI',sans-serif;
         font-weight:400
         }
         
+/*字体颜色*/
+a, a:hover, a:focus{
+	color:#ac203a 
+}
+
 p{
         line-height: 27px;
         font-size:15px
@@ -17,9 +22,7 @@ ul{
 body {
 	font-size: 14px;
 	background-color:rgb(222, 231, 240);
-	/*
-		background-image: url('https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/flake.png');
-	*/
+/*background-image: url('https://img2.plumz.me/flake.png');*/
 }
 
 body>.container{
@@ -40,21 +43,16 @@ footer{
 #main{
         padding-top:80px
         }
-        
-/*字体颜色*/
-a, a:hover, a:focus{
-	color:#399fa1 
-}
 
 /*标题栏颜色*/
 .navbar.navbar-inverse{
         border:0;
         box-shadow:0 0 10px #000;
-        background-color:rgba(43,142,145,0.92)
+        background-color:rgba(172,32,58,.92)
         }
 
 .billboard{
-        background:#b8d9fa url(https://cdn.jsdelivr.net/gh/plumlis/plumzme/static/billboard_yua.jpg) center center repeat-x;
+        background:#b8d9fa url(https://img2.plumz.me/billboard.jpg) center center repeat-x;
         background-size:cover;
         padding:170px 0 0px;
         box-shadow:0 2px 8px rgba(0,0,0,.25),0 2px 8px rgba(0,0,0,.12)
@@ -119,23 +117,20 @@ a, a:hover, a:focus{
         border-top-left-radius:4px
         }
         
-/*页码按钮颜色*/
-     
 .page-navigator>.current>a,.page-navigator>.current>a:focus,.page-navigator>.current>a:hover,.page-navigator>.current>span,.page-navigator>.current>span:focus,.page-navigator>.current>span:hover{
         z-index:2;
         color:#fff;
         cursor:default;
-        background-color:#399fa1;
-        border-color:#399fa1
+        background-color:#2b94ff;
+        border-color:#2b94ff
         }
-        
         
 .page-navigator>.active>a,.page-navigator>.active>a:focus,.page-navigator>.active>a:hover,.page-navigator>.active>span,.page-navigator>.active>span:focus,.page-navigator>.active>span:hover{
         z-index:2;
         color:#fff;
         cursor:default;
-        background-color:#399fa1;
-        border-color:#399fa1
+        background-color:#2b94ff;
+        border-color:#2b94ff
         }
         
 .page-navigator>li>a,.page-navigator>li>span{
@@ -173,7 +168,7 @@ a, a:hover, a:focus{
 .col-md-3 .panel a.panel-heading{
         display:block;
         text-decoration:none;
-        background-color:#399fa1
+        background-color:#ac203a
         }
         
 a:hover.item{
@@ -512,7 +507,7 @@ cite.fn{
         
 .badge{
         color:#FFF;
-        background-color:8e8990;
+        background-color:#2b94ff;
         }
 
 .col-md-9 .badge{
@@ -526,7 +521,7 @@ cite.fn{
 /*tag云标签颜色*/
 .badge>a{
         color:#FFF;
-        background-color:#8e8990
+        background-color:#2b94ff
         }
         
 /*底部颜色*/
@@ -534,7 +529,7 @@ cite.fn{
         border-radius: 2px;
         border: 0;
         box-shadow: 0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12);
-        background-color:#508ed2
+        background-color:#ac203a
         }
         
 /*space*/
@@ -580,7 +575,7 @@ cite.fn{
 }
 /*标签*/
 .label{
-	background-color:#8e8990;
+	background-color:#2b94ff;
 	white-space:nowrap;
 	margin:1px;
 	font-weight:100
@@ -588,7 +583,7 @@ cite.fn{
 
 /*标签*/
 .label-tag{
-	background-color:#8e8990;
+	background-color:#2b94ff;
 	white-space:nowrap;
 	margin:1px;
 	font-weight:300;
@@ -624,9 +619,31 @@ cite.fn{
 	color:#555
 }
 
+/* Table */
+table {
+    padding: 0;
+    word-break: break-all;
+    width: 100%;
+}
+.post-content table tr:nth-child(2n),.post-content thead {
+    background: #f8f8f8;;
+}
+table tr th {
+    border: 1px solid #dfe2e5;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #dfe2e5;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+
 /*下面上一篇下一篇的颜色*/
 .btn-default:not(.btn-link):not(.btn-flat){
-	background-color:#508ed2;
+	background-color:#2b94ff;
 	color:rgba(255, 255, 255);
 	border-radius:25px;
 	margin:2px 2px 2px 2px;
@@ -643,17 +660,17 @@ cite.fn{
 /*几个按钮颜色*/
 
 .btn-info:not(.btn-link):not(.btn-flat){
-background-color:#508ed2
+background-color:#2b94ff
 }
 
 /*回复按钮颜色*/
 .btn-danger:not(.btn-link):not(.btn-flat){
-	background-color:#508ed2;
+	background-color:#2b94ff;
 	color:rgb(255, 255, 255)
 }
 /*确认按钮颜色*/
 .btn-success:not(.btn-link):not(.btn-flat){
-background-color:#508ed2
+background-color:#ac203a
 }
 
 btn-success:hover:not(.btn-link):not(.btn-flat){
@@ -671,3 +688,95 @@ background-color:#2b94ff
 .label-success{
 	background-color:#4caf50
 }
+
+/*
+ * page index.
+ */
+.c-a {
+    width: 200px;
+    min-width: 200px;
+    height: max-content;
+    position: fixed;
+    left: 160px;
+    top: 160px;
+    border-radius: 2px;
+    border: 0;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+    background-color: #fff;
+}
+
+
+
+/* 文章目录树 */
+.index-box-title {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #009688;
+    color: rgba(255,255,255,.84);
+    padding: 4px 8px 4px 12px;
+    cursor: pointer;
+    word-break: break-all;
+}
+
+.index-box-title:hover, .index-box-title:focus{
+    color: rgba(255,255,255,.84);
+    text-decoration: none;
+}
+
+.index-box {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.index-box ul {
+    padding: 0;
+    list-style: none;
+}
+
+.index-box .index-subItem-box {
+    display: none;
+}
+
+.index-box .index-item,
+.index-box .index-link {
+    width: 100%;
+    display: block;
+    color: #333333;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.index-box .index-link {
+    padding: 4px 8px 4px 12px;
+    cursor: pointer;
+    -webkit-transition: background-color 0.3s, border-left-color 0.3s;
+    -moz-transition: background-color 0.3s, border-left-color 0.3s;
+    -o-transition: background-color 0.3s, border-left-color 0.3s;
+    transition: background-color 0.3s, border-left-color 0.3s;
+    border-left: 3px solid transparent;
+    word-break: break-all;
+}
+
+.index-box .index-item.current > .index-link {
+    background-color: rgba(238, 238, 238, 1);
+    border-left: 3px solid #ff6651;
+}
+
+.index-box .index-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.index-box .index-subItem-box .index-item {
+    padding-left: 1em;
+}
+
+
+
+
+
+
