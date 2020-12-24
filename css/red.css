@@ -1,17 +1,17 @@
 /*字体颜色*/
 a, a:hover, a:focus{
-	color:#91366a 
+	color:#B31800 
 }
 
 /*背景颜色*/
 body {
 	background-color:rgb(222, 231, 240);
-/*background-image: url('https://img2.plumz.me/flake.png');*/
+	background-image: url('https://img2.plumz.me/flake.png');
 }
 
 /*标题栏颜色*/
 .navbar.navbar-inverse{
-        background-color:rgba(145,54,106,.92)
+        background-color:rgba(153,20,0,.92)
         }
         
 .billboard{
@@ -35,14 +35,14 @@ body {
   
 .page-navigator>.current>a,.page-navigator>.current>a:focus,.page-navigator>.current>a:hover,.page-navigator>.current>span,.page-navigator>.current>span:focus,.page-navigator>.current>span:hover{
         color:#fff;
-        background-color:#965845;
-        border-color:#965845
+        background-color:#008C36;
+        border-color:#008C36
         }
 
 .page-navigator>.active>a,.page-navigator>.active>a:focus,.page-navigator>.active>a:hover,.page-navigator>.active>span,.page-navigator>.active>span:focus,.page-navigator>.active>span:hover{
         color:#fff;
-        background-color:#965845;
-        border-color:#965845
+        background-color:#008C36;
+        border-color:#008C36
         }
         
 .page-navigator>li>a,.page-navigator>li>span{
@@ -56,7 +56,7 @@ body {
         
 /*侧边标题颜色*/
 .col-md-3 .panel a.panel-heading{
-        background-color:#91366a
+        background-color:#B31800
         }
         
 a:hover.item{
@@ -83,7 +83,7 @@ footer .footer-bottom ul.footer-nav li a{
 /*tag颜色*/
 .badge{
         color:#FFF;
-        background-color:#965845;
+        background-color:#008C36;
         }
 
 .col-md-9 .badge{
@@ -94,7 +94,7 @@ footer .footer-bottom ul.footer-nav li a{
 /*tag云标签颜色*/
 .badge>a{
         color:#FFF;
-        background-color:#965845
+        background-color:#008C36
         }
 
 /*底部名言颜色*/
@@ -104,12 +104,12 @@ footer .footer-bottom ul.footer-nav li a{
 
 /*标签*/
 .label{
-	background-color:#965845;
+	background-color:#008C36;
 	}
 	
 /*标签*/
 .label-tag{
-	background-color:#965845;
+	background-color:#008C36;
 }
 
 .label>a{
@@ -146,7 +146,7 @@ footer .footer-bottom ul.footer-nav li a{
 /*几个按钮颜色*/
 
 .btn-info:not(.btn-link):not(.btn-flat){
-background-color:#965845
+background-color:#008C36
 	}
 
 /*回复按钮颜色*/
@@ -156,20 +156,20 @@ background-color:#965845
 	}
 /*确认按钮颜色*/
 .btn-success:not(.btn-link):not(.btn-flat){
-background-color:#91366a
+background-color:#B31800
 	}
 
 btn-success:hover:not(.btn-link):not(.btn-flat){
-background-color:#965845
+background-color:#008C36
 	}
 
 .btn-primary:not(.btn-link):not(.btn-flat){
-background-color:#965845
+background-color:#008C36
 	}
 
 
 .btn-success.btn-flat:not(.btn-link){
-background-color:#965845
+background-color:#008C36
 	}
 .label-success{
 	background-color:#4caf50
@@ -177,7 +177,7 @@ background-color:#965845
 
 /* 文章目录树 */
 .index-box-title {
-    background-color: #91366a;
+    background-color: #B31800;
     color: rgba(255,255,255,.84);
 	}
 
