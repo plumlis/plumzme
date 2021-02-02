@@ -330,18 +330,18 @@ background-color:#008C36
     }
 
     /* 翻页按钮 */
-    .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover {
+    .page-navigator> .active > a, .page-navigator> .active > a:focus, .page-navigator> .active > a:hover {
         background-color: #2c2a2a;
         border-color: #2c2a2a;
     }
 
-    .pagination > li > a, .pagination > li > span {
+    .page-navigator> li > a, .page-navigator> li > span {
         color: #fff;
         background-color: #464646;
         border: 1px solid #565656;
     }
 
-    .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover {
+    .page-navigator> li > a:focus, .navigator > li > a:hover, .navigator > li > span:focus, .page-navigator> li > span:hover {
         color: #fff;
         background-color: #7b7b7b;
         border-color: #7b7b7b;
